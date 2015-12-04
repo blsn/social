@@ -16,12 +16,12 @@
   embedMaryTTS($input, $locale, $voice);
   
   function embedMaryTTS($input, $locale, $voice) {
-    //$baseUrl = 'http://edchant.tk:8080/';
+    $baseUrl = 'http://edchant.tk:8080/';
     //$baseUrl = 'http://edchant.tk:1234/example13/';
     //$baseUrl = 'http://127.0.0.1:8080/';
     //$baseUrl = 'http://127.0.0.1:1234/example13/';
     //$baseUrl = 'http://192.168.10.10:1234/example13/';
-    $baseUrl = 'http://192.168.10.10:8080/';   
+    //$baseUrl = 'http://192.168.10.10:8080/';   
     
     $key = getenv('MARYTTS_HMAC_SECRET');
     $keyBytes = base64_decode($key);
