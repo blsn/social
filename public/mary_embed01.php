@@ -6,7 +6,7 @@
 </head>
 
 <body>
-  <h3>Mary Audio embeded</h3>
+  <h3>Mary jetty embeded</h3>
 
   <?php
   $input = "we are only boys and girls";
